@@ -1,0 +1,120 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+}
+
+body {
+    background: rgb(28, 255, 232);
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: white;
+    text-shadow: 16px 9px 13px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.Calculatrice-container {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Calculatrice {
+    border: 2px white solid;
+    height: 650px;
+    width: 30%;
+    background: rgb(113, 238, 176);
+    border-radius: 25px;
+    box-shadow: 3px 5px 20px 3px;
+}
+
+.ecran {
+    /* height: 200px;
+    margin: 30px;
+    border: 2px white solid;
+    background: black;
+    border-radius: 25px;
+    color: white; */
+    height: 200px;
+    margin: 30px;
+    border: 2px white solid;
+    background: black;
+    border-radius: 25px;
+    
+    /* Pour le texte à l'intérieur */
+    display: flex;
+    justify-content: flex-end; /* Aligné à droite */
+    align-items: center;       /* Centré verticalement */
+    padding-right: 10px;
+    font-size: 3rem;
+    color: white; /* 👈 Le texte est blanc */
+}
+
+.boutons-haut {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    min-width: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.boutons-tous {
+    display: grid;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 2rem;
+}
+
+.boutons-dessous {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.boutons-centre {
+    font-size: 3.5rem;
+}
+
+.bite {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+input:hover {
+    background: black;
+    color: white;
+    transition: 0.75s;
+}
+
+.lien {
+    color: white;
+    border: 2px rgb(0, 0, 0) solid;
+    padding: none;
+    background: white;
+    border-radius: 25px;
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 42.5px;
+    font-size: 1.5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
